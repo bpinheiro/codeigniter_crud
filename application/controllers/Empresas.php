@@ -3,8 +3,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Empresas extends CI_Controller {
 
-
-
 	public function index()	{
     $this->load->model('model_empresas');
 

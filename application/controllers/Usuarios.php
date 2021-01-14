@@ -23,13 +23,13 @@ class Usuarios extends CI_Controller {
   }
 
 
-  public function delete() {
+  public function ajax_delete() {
     //TODO: vai receber o id via post e deletar o usuario
     //TODO: Criar uma funcao no model que recebe o id e apaga o usuario
     //retornar um JSON caso tenha conseguido
   }
 
-  public function save() {
+  public function ajax_save() {
     //TODO: vai receber os dados via post e salvar
     //TODO: criar a funcao no model para salvar os dados
     //TODO: retornar um JSON caso tenha conseguido
